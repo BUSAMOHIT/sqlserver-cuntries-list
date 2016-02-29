@@ -13,6 +13,9 @@ CREATE TABLE [dbo].[Countries](
 ) ON [PRIMARY]
 END
 SET IDENTITY_INSERT [dbo].[Countries] ON
+
+
+
 INSERT [dbo].[Countries] ([id], [country_code], [country_name]) VALUES (1, N'AF', N'Afghanistan')
 INSERT [dbo].[Countries] ([id], [country_code], [country_name]) VALUES (2, N'AL', N'Albania')
 INSERT [dbo].[Countries] ([id], [country_code], [country_name]) VALUES (3, N'DZ', N'Algeria')
